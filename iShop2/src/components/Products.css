@@ -1,0 +1,103 @@
+.container{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 00px;
+    width: 50vw;
+    justify-content:space-between;
+    margin-left:-2rem;
+}
+
+.Container{
+    flex:1;
+    margin: 5px;
+    min-width: 280px;
+    right: 200px;
+    left:200px;
+    height:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fbfd;
+    border-color: black;
+    border-width: 5px;
+    position: relative;
+}
+
+.Container:hover{
+    opacity: 1;
+    box-shadow: #e9f5f5;
+
+}
+
+.text{
+    margin-top: 400px;
+    margin-left: -230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1{
+    margin-top: 350px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.Info:hover{
+    opacity: 1;
+
+}
+.checked{
+    color:goldenrod;
+    margin-top: 460px;
+    left: -230px;
+   
+}
+.Image{
+    height:50%;
+    z-index: 2;
+}
+.Circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+
+.Info{
+    opacity: 0;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.2);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+
+.Icon{
+    width: 50px;
+    left: 200px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+
+.Icon:hover{
+    background-color: #e9f5f5;
+    transform: scale(1.1);
+}
+

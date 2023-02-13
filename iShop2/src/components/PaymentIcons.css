@@ -1,0 +1,8 @@
+.paymentImg{
+    padding-left: 20px;
+}
+
+.payMentIcon{
+    display: flex;
+    justify-content:right;
+}
